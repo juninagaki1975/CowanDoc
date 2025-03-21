@@ -194,7 +194,7 @@ SUBCOR は、指定された電子密度に対する修正自由電子相関エ�
 CROSYM は、以下を与えるための連立一次方程式系を解きます：
 
 $$
-AZ = \left[ \frac{P_{nl}(r)}{r^{l+1}} \right]_{r = 0}
+AZ &=& \left[ \frac{P_{nl}(r)}{r^{l+1}} \right]_{r = 0}
 \tag{2}
 $$
 
