@@ -199,7 +199,7 @@ POWER は各軌道について $-3 \leq m \leq 6 \ (m \ne 5)$ における $\lan
 
 ZETA1 は中心ポテンシャル公式に基づいてスピン・軌道相互作用パラメータ $z_{nl}$ を計算します：
 
-$$ \zeta_{nl} = \int_0^{\infty} \left[ P_{nl}^2(r) \cdot \left( \frac{1}{r} \frac{dV}{dr} \right) \right] dr (3\) $$
+$$ \zeta_{nl} = \int_0^{\infty} \left[ P_{nl}^2(r) \cdot \left( \frac{1}{r} \frac{dV}{dr} \right) \right] dr           (3\) $$
 
 加えて、Blume-Watson 法（[Proc. Roy. Soc. (London) A270, 127 (1962); A271, 565 (1963)]）でも計算されます。この方法の方がはるかに正確な値を与えるため、実際に使用されるのはこの値です。  
 また、1電子の運動エネルギーと電子-原子核ポテンシャルエネルギーの和 $I_{nl}$、および相対論的な質量-速度補正とダーウィン項も計算・出力されます（実際には $I_{nl}$ は RCN3S 内で計算され、ZETA1 では出力のみ行われます）。
