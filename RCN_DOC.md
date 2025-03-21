@@ -101,17 +101,11 @@
 
 ### 計算されるラジアル積分  
 - **重なり積分 (overlap integrals)**  
-$\[
-  \langle P_{nl} | P_{n'l'} \rangle
-  \]$  
+$\langle P_{nl} | P_{n'l'} \rangle$  
 - **相互作用クーロン積分 (configuration-interaction Coulomb integrals)**
-  $\[
-  R_k
-  \]$  
+  $R_k$  
 - **スピン-軌道積分 (spin-orbit integrals)**  
-  $\[
-  z_{nl n'l'}
-  \]$  
+  $z_{nl n'l'}$  
 - **ラジアル電気双極子 (electric-dipole) および 電気四重極子 (electric-quadrupole) 積分**  
 
 RCN2 の最も一般的な用途では、**原子のエネルギーレベルとスペクトルの計算に必要なすべての量を自動的に計算** します。その後、この情報を **プログラム RCG** の入力形式に適合したファイルに書き込みます。RCG はエネルギーレベルやスペクトルの計算を実行するプログラムです。  
