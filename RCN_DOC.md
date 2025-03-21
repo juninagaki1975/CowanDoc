@@ -193,7 +193,7 @@ SUBCOR は、指定された電子密度に対する修正自由電子相関エ�
 
 CROSYM は、以下を与えるための連立一次方程式系を解きます：
 
-$AZ=\left[ \frac{P_{nl}(r)}{r^{l+1}} \right]_{r = 0}      (2\)$
+$$ AZ=\left[ \frac{P_{nl}(r)}{r^{l+1}} \right]_{r = 0}      (2\) $$
 
 POWER は各軌道について $-3 \leq m \leq 6 \ (m \ne 5)$ における $\langle r^m \rangle$ の値を計算します。
 
